@@ -193,8 +193,8 @@ export function Web3Provider({ children }: { children: ReactNode }) {
           console.log(`成功连接到: ${endpoint}`)
           break
           
-        } catch (endpointError) {
-          console.warn(`端点 ${endpoint} 连接失败:`, endpointError.message)
+        } catch (endpointError: any) {
+          console.warn(`端点 ${endpoint} 连接失败:`, endpointError?.message || endpointError)
           continue
         }
       }
