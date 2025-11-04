@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { LayoutDashboard, TrendingUp, Fuel, Shield, Coins, Brain } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { Web3Provider } from './contexts/Web3Context'
