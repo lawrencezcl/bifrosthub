@@ -160,8 +160,8 @@ export const useBifrostVTokens = () => {
             color: config.color
           };
           
-        } catch (error) {
-          console.warn(`Failed to fetch ${symbol} balance:`, error);
+        } catch (error: any) {
+          console.warn(`Failed to fetch ${symbol} balance:`, error?.message || error);
           return {
             symbol,
             underlying: config.underlying,
@@ -213,9 +213,9 @@ export const useBifrostVTokens = () => {
       
       return result;
       
-    } catch (error) {
+    } catch (error: any) {
       console.error('❌ Mint failed:', error);
-      toast.error(`铸造失败: ${error.message}`);
+      toast.error(`铸造失败: ${error?.message || '未知错误'}`);
       throw error;
     } finally {
       setLoading(false);
@@ -247,9 +247,9 @@ export const useBifrostVTokens = () => {
       
       return result;
       
-    } catch (error) {
+    } catch (error: any) {
       console.error('❌ Redeem failed:', error);
-      toast.error(`赎回失败: ${error.message}`);
+      toast.error(`赎回失败: ${error?.message || '未知错误'}`);
       throw error;
     } finally {
       setLoading(false);
@@ -274,8 +274,8 @@ export const useBifrostVTokens = () => {
         timestamp: Date.now()
       };
       
-    } catch (error) {
-      console.error('Failed to fetch network stats:', error);
+    } catch (error: any) {
+      console.error('Failed to fetch network stats:', error?.message || error);
       return null;
     }
   }, [api]);
@@ -306,8 +306,8 @@ async function getTokenPrice(symbol: string): Promise<number> {
     };
     
     return mockPrices[symbol] || 0;
-  } catch (error) {
-    console.warn('Failed to fetch price for:', symbol);
+  } catch (error: any) {
+    console.warn('Failed to fetch price for:', symbol, error?.message || error);
     return 0;
   }
 }
