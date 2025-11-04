@@ -10,7 +10,6 @@ import RiskManager from './components/RiskManager'
 import BifrostMintInterface from './components/BifrostMintInterface'
 import BifrostRedeemInterface from './components/BifrostRedeemInterface'
 import IntelligentStakingAssistant from './components/IntelligentStakingAssistant'
-import { Toast } from './components/ui/toast'
 import './App.css'
 
 type TabType = 'dashboard' | 'yield' | 'gas' | 'risk' | 'bifrost-mint' | 'bifrost-redeem' | 'ai-assistant'
@@ -95,8 +94,6 @@ function App() {
             </div>
           </div>
         </footer>
-        
-        <Toast />
       </div>
     </Web3Provider>
   )

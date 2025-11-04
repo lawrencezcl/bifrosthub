@@ -1,0 +1,64 @@
+{
+  "header": {
+    "title": "BifrostHub",
+    "subtitle": "一站式流动性质押管理平台",
+    "connectMetaMask": "连接 MetaMask",
+    "connectPolkadot": "连接 Polkadot",
+    "disconnectTooltip": "断开连接",
+    "language": "语言"
+  },
+  "nav": {
+    "dashboard": "资产仪表板",
+    "yieldRouter": "收益路由",
+    "gasOptimizer": "Gas 优化",
+    "riskManager": "风险管理",
+    "bifrostMint": "Bifrost 铸造",
+    "bifrostRedeem": "Bifrost 赎回",
+    "aiAssistant": "AI 助手"
+  },
+  "assetDashboard": {
+    "title": "资产仪表板",
+    "subtitle": "实时查看和管理您的多链资产",
+    "refreshData": "刷新数据",
+    "totalValue": "总资产价值",
+    "weeklyIncrease": "本周增长",
+    "averageApy": "平均年化收益率",
+    "aboveMarket": "高于市场平均水平",
+    "monthlyYield": "月度收益",
+    "estimated": "预估收益",
+    "activeChains": "活跃链数",
+    "multiChain": "多链支持",
+    "assetDistribution": "资产分布",
+    "yieldTrend": "收益趋势",
+    "assetDetails": "资产详情",
+    "chain": "链",
+    "asset": "资产",
+    "balance": "余额",
+    "value": "价值",
+    "apy": "年化收益率",
+    "actions": "操作",
+    "loadingAssets": "正在加载资产数据...",
+    "connectWalletFirst": "请先连接钱包以查看资产",
+    "manage": "管理",
+    "connectWalletPrompt": "请连接钱包",
+    "connectWalletDesc": "连接钱包以查看您的资产信息",
+    "refreshSuccess": "数据刷新成功",
+    "refreshSuccessDesc": "已加载 {{count}} 个资产",
+    "refreshFailed": "数据刷新失败",
+    "refreshFailedDesc": "请稍后重试",
+    "manageAsset": "管理资产",
+    "manageAssetDesc": "管理您的 {{symbol}} 资产",
+    "weeklyIncrease": "本周增长"
+  },
+  "common": {
+    "refreshing": "刷新中...",
+    "connecting": "连接中...",
+    "manage": "管理"
+  },
+  "footer": {
+    "copyright": "© 2024 BifrostHub. 保留所有权利。",
+    "docs": "文档",
+    "community": "社区",
+    "support": "支持"
+  }
+}

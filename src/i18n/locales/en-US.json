@@ -1,0 +1,64 @@
+{
+  "header": {
+    "title": "BifrostHub",
+    "subtitle": "One-Stop Liquid Staking Management Platform",
+    "connectMetaMask": "Connect MetaMask",
+    "connectPolkadot": "Connect Polkadot",
+    "disconnectTooltip": "Disconnect",
+    "language": "Language"
+  },
+  "nav": {
+    "dashboard": "Asset Dashboard",
+    "yieldRouter": "Yield Router",
+    "gasOptimizer": "Gas Optimizer",
+    "riskManager": "Risk Manager",
+    "bifrostMint": "Bifrost Mint",
+    "bifrostRedeem": "Bifrost Redeem",
+    "aiAssistant": "AI Assistant"
+  },
+  "assetDashboard": {
+    "title": "Asset Dashboard",
+    "subtitle": "Real-time view and management of your multi-chain assets",
+    "refreshData": "Refresh Data",
+    "totalValue": "Total Value",
+    "weeklyIncrease": "Weekly Increase",
+    "averageApy": "Average APY",
+    "aboveMarket": "Above market average",
+    "monthlyYield": "Monthly Yield",
+    "estimated": "Estimated",
+    "activeChains": "Active Chains",
+    "multiChain": "Multi-chain support",
+    "assetDistribution": "Asset Distribution",
+    "yieldTrend": "Yield Trend",
+    "assetDetails": "Asset Details",
+    "chain": "Chain",
+    "asset": "Asset",
+    "balance": "Balance",
+    "value": "Value",
+    "apy": "APY",
+    "actions": "Actions",
+    "loadingAssets": "Loading assets...",
+    "connectWalletFirst": "Connect wallet first to view assets",
+    "manage": "Manage",
+    "connectWalletPrompt": "Please connect your wallet",
+    "connectWalletDesc": "Connect your wallet to view your assets",
+    "refreshSuccess": "Data refreshed successfully",
+    "refreshSuccessDesc": "Loaded {{count}} assets",
+    "refreshFailed": "Failed to refresh data",
+    "refreshFailedDesc": "Please try again later",
+    "manageAsset": "Manage Asset",
+    "manageAssetDesc": "Manage your {{symbol}} asset",
+    "weeklyIncrease": "Weekly Increase"
+  },
+  "common": {
+    "refreshing": "Refreshing...",
+    "connecting": "Connecting...",
+    "manage": "Manage"
+  },
+  "footer": {
+    "copyright": "© 2024 BifrostHub. All rights reserved.",
+    "docs": "Docs",
+    "community": "Community",
+    "support": "Support"
+  }
+}
